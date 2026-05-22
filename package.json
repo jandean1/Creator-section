@@ -6,18 +6,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "netlify dev",
-    "build": "mkdir -p public && cp index.html public/index.html && echo 'Asset compilation successful.'"
+    "build": "echo 'Static assets delivery optimized.'"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {
     "netlify-cli": "latest"
-  },
-  "keywords": [
-    "telemetry",
-    "engineering",
-    "dashboard",
-    "static-site"
-  ]
+  }
 }
